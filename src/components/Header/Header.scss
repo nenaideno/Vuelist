@@ -1,0 +1,29 @@
+.header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 27, 27);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.55);
+
+    & img {
+        width: 50px;
+    }
+
+    & .header-menu {
+        & a {
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            margin-right: 30px;
+
+            &:hover {
+                display: inline-block;
+                transition: .1s;
+                transform: scale(1.1);
+                color: rgb(0, 204, 204);
+            }
+        }
+    }
+
+}
